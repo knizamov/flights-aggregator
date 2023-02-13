@@ -1,0 +1,9 @@
+spring:
+  main:
+    lazy-initialization: true
+
+supplier:
+  crazyair:
+    baseUrl: "http://localhost:${wiremock.port}/crazyair"
+  toughjet:
+    baseUrl: "http://localhost:${wiremock.port}/toughjet"
